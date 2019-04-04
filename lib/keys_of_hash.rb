@@ -1,7 +1,8 @@
 class Hash
   def keys_of(arguments)
     animalArrr=[]
-    arguments.each do ||
+    self.each do |key, value|
+      
       
     return animalArrr
   end
