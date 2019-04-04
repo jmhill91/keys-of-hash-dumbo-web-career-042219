@@ -4,7 +4,7 @@ class Hash
     self.each do |key, value|
       arguments.each do |info|
         if info == value
-          animalArr << key
+          animalArr.push(key)
         end
       end
     end
