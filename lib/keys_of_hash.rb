@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     animalArr=[]
     self.each do |key, value|
       arguments.each do |info|
