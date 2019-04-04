@@ -8,6 +8,6 @@ class Hash
         end
       end
     end
-    return animalArrr
+    return animalArr
   end
 end
