@@ -1,5 +1,7 @@
 class Hash
   def keys_of(arguments)
-    animalArrr
+    animalArrr=[]
+    
+    return animalArrr
   end
 end
