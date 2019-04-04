@@ -1,10 +1,13 @@
 class Hash
   def keys_of(arguments)
-    animalArrr=[]
+    animalArr=[]
     self.each do |key, value|
       arguments.each do |info|
-        
-      
+        if info == value
+          animalArr << key
+        end
+      end
+    end
     return animalArrr
   end
 end
